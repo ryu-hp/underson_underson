@@ -10,6 +10,41 @@ $(document).ready(function() {
             }
         })
     }
+    $(window).on('scroll', function() {
+        checkFadeInAnimation();
+    });
+
+    // アニメーションをチェックする関数
+    function checkFadeInAnimation() {
+        // 画面幅によって条件を分ける
+        var value = window.innerWidth <= 767 ? 1 : 0.8;
+
+        // 画面幅が767px以下の場合
+        $('.js-fadeInUpSp').each(function() {
+            if (window.innerWidth <= 767) {
+                fadeInResponsiveAnimation(this, value);
+            }
+        });
+        // 画面幅が768px以上の場合
+        $('.js-fadeInUpPc').each(function() {
+            if (window.innerWidth >= 768) {
+                fadeInResponsiveAnimation(this, value);
+            }
+        });
+    }
+
+    // 実際にアニメーションを適用する関数
+    function fadeInResponsiveAnimation(element, value) {
+        var elemPos = $(element).offset().top;
+        var scroll = $(window).scrollTop();
+        var winH = $(window).height();
+        if (scroll > elemPos - winH * value) {
+            $(element).addClass('visible');
+        }
+    }
+    // 初期ロード時もチェック
+    checkFadeInAnimation();
+
     $(window).on('scroll', fadeAnimation);
     fadeAnimation(); // 初期ロード時にも実行
     function borderLongAnimation() {
