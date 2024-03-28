@@ -7,8 +7,8 @@
 --%>
 <%-- ▽ユーザーコントロール宣言領域▽ --%>
 <%-- △ユーザーコントロール宣言領域△ --%>
-<%@ Page Title="企画名 ｜【公式】UNDERSON UNDERSON（アンダーソン アンダーソン）" Language="C#" Inherits="BasePage" MasterPageFile="~/SmartPhone/Form/Common/DefaultPage.master" %>
-<%@ Register TagPrefix="uc" TagName="text" Src="~/Page/feature/2024/template/parts/text.ascx" %>
+<%@ Page Title="おしゃれなあの人が推す UNDERSON UNDERSON の愛用アイテム meets 阿久津ゆりえ ｜【公式】UNDERSON UNDERSON（アンダーソン アンダーソン）" Language="C#" Inherits="BasePage" MasterPageFile="~/SmartPhone/Form/Common/DefaultPage.master" %>
+<%@ Register TagPrefix="uc" TagName="text" Src="~/Page/feature/2024/240403_influencer/parts/text.ascx" %>
 <%--
 
 下記のタグはファイル情報保持用です。削除しないでください。
