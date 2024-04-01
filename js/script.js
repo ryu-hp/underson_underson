@@ -67,9 +67,14 @@ jQuery(function ($) {
             loop: true,
             centeredSlides: true, // アクティブなスライドを中央に配置
             autoplay: {
-                delay: 4000,
+                delay: 3000,
                 disableOnInteraction: false,
             },
+            effect: 'fade', // スライドの切り替え効果をフェードに設定
+            fadeEffect: {
+                crossFade: true // クロスフェード効果を有効にする
+            },
+            speed: 1500,
             pagination: {
                 el: paginationSelector, // ページネーション要素
                 type: 'bullets', // ページネーションの種類

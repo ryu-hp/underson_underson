@@ -33,12 +33,10 @@ Copyright : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
         <section id = "mv" class = "mv js-fadeInUpSp">
           <div class="mv__inner">
             <div class="mv__image">
-              <a href="#">
-                <picture>
-                  <source srcset="<%= Constants.PATH_ROOT %>Page/feature/2024/240403_influencer/image/sp_01_mv.jpg" media="(max-width: 767px)" type="image/jpeg">
-                  <img src="<%= Constants.PATH_ROOT %>Page/feature/2024/240403_influencer/image/pc_01_mv.jpg" alt="おしゃれなあの人が推す UNDERSON UNDERSON の愛用アイテム meets 阿久津ゆりえ">
-                </picture>
-              </a>
+              <picture>
+                <source srcset="<%= Constants.PATH_ROOT %>Page/feature/2024/240403_influencer/image/sp_01_mv.jpg" media="(max-width: 767px)" type="image/jpeg">
+                <img src="<%= Constants.PATH_ROOT %>Page/feature/2024/240403_influencer/image/pc_01_mv.jpg" alt="おしゃれなあの人が推す UNDERSON UNDERSON の愛用アイテム meets 阿久津ゆりえ">
+              </picture>
             </div>
           </div>
         </section>
@@ -46,7 +44,7 @@ Copyright : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
           <div class="topText__inner inner">
             <div class="topText__top">
               <p class="topText__top--small">おしゃれなあの人が推す</p>
-              <h2 class="topText__top--main"><span class="font_family_second">UNDERSON UNDERSON</span>の<br class="only-mobile"><span class="topText__top--main--bottom">愛用アイテム</span></h2>
+              <h2 class="topText__top--main"><span class="font_family_second topText__top--eng">UNDERSON</span> <span class="font_family_second topText__top--eng">UNDERSON</span>の<br class="only-mobile"><span class="topText__top--main--bottom">愛用アイテム</span></h2>
             </div>
             <p class="topText__center"><span class="font_family_second topText__center--left">meets</span>阿久津ゆりえ</p>
             <p class="topText__bottom">
@@ -63,17 +61,16 @@ Copyright : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
             <div class="profile__column profile__column--left js-fadeInUpSp">
               <div class="profile__headColumns">
                 <div class="profile__icon">
-                  <img src="<%= Constants.PATH_ROOT %>Page/feature/2024/240403_influencer/image/pc_02_icon.png" alt="阿久津ゆりえ">
+                  <img src="<%= Constants.PATH_ROOT %>Page/feature/2024/240403_influencer/image/pc_02_icon.png" alt="阿久津ゆりえ" loading=“lazy”>
                 </div>
                 <div class="profile__info">
                   <p class="profile__name">
                     モデル<br class="only-desktop">
-                    <span class="profile__name--large">阿久津ゆりえ</span><br class="only-desktop">
-                    さん
+                    <span class="profile__name--large">阿久津ゆりえ</span><br class="only-desktop">さん
                   </p>
                   <p class="profile__instagram font_family_second">
                     Instagram:<br class="only-desktop">
-                    @yurie__a
+                    <span class="profile__instagram--ls_0">@yurie__a</span>
                   </p>
                 </div>
               </div>
@@ -83,7 +80,7 @@ Copyright : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
             </div>
             <div class="profile__column profile__column--right js-fadeInUpSp">
               <p class="profile__voice">
-                数年前から化学繊維系のアンダーウェアが肌に合わなくなり困っていた時に、偶然出会ったのがUNDERSON UNDERSONでした。<br class="only-desktop">ファッションのスタイルにも合うアンダーウェアに出会えてなかったので、UNDERSON UNDERSONのシンプルなデザインに一目惚れ。店員さんにオススメしてもらったブラトップを買って試してみたら大正解！ <br>
+                数年前から化学繊維系のアンダーウェアが肌に合わなくなり困っていた時に、偶然出会ったのがUNDERSON UNDERSONでした。<br class="only-desktop">ファッションのスタイルにも合うアンダーウェアに出会えてなかったので、<span class="profile__voice--eng">UNDERSON</span> <span>UNDERSON</span>のシンプルなデザインに一目惚れ。店員さんにオススメしてもらったブラトップを買って試してみたら大正解！ <br>
                 肌トラブルともおさらばでき、そこからずっと愛用しています。
               </p>
             </div>
@@ -101,13 +98,13 @@ Copyright : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                   <div class="swiper-wrapper">
                     <!-- スライド -->
                     <div class="swiper-slide"><!-- 活動1 -->
-                      <a href="#">
-                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2024/240403_influencer/image/pc_03_image.jpg" alt="リラックスヘルシーブラ×フルヒップショーツ">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=UU240403influencer01">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2024/240403_influencer/image/pc_03_image.jpg" alt="リラックスヘルシーブラ×フルヒップショーツ" loading=“lazy”>
                       </a>
                     </div>
                     <div class="swiper-slide">
-                      <a href="#">
-                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2024/240403_influencer/image/pc_04_image.jpg" alt="リラックスヘルシーブラ×フルヒップショーツ">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=UU240403influencer01">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2024/240403_influencer/image/pc_04_image.jpg" alt="リラックスヘルシーブラ×フルヒップショーツ" loading=“lazy”>
                       </a>
                     </div>
                   </div>
@@ -116,7 +113,7 @@ Copyright : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                 </div>
                 <div class="look_columns__cloumn look_column look_column__first_text">
                   <div class="look_first_text">
-                    <h3 class="look_first_text__head"><span class="look_first_text__head--top"><a href="#">リラックスヘルシーブラ</a></span><br>×<br><span class="look_first_text__head--bottom"><a href="#">フルヒップショーツ</a></span></h3>
+                    <h3 class="look_first_text__head"><span class="look_first_text__head--top"><a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=UUWGG249133">リラックスヘルシーブラ</a></span><br>×<br><span class="look_first_text__head--bottom"><a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=UUWGG249140">フルヒップショーツ</a></span></h3>
                     <div class="look_first_text__body comodity_descriptionBox">
                       <p class="comodity_descriptionBox__description">
                         下着っぽくないデザインに、垢抜けたネイビーの色合いがデニムにぴったり。胸元のホールド力もしっかりしているので安心です。今シーズンはウェストからチラッとロゴ見せたい気分です。
@@ -128,17 +125,17 @@ Copyright : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
             </div>
           </div>
           <div class="favoriteItem_1__images js-fadeInUp">
-            <a href="#" class="favoriteItem_1__image only-desktop"><img src="<%= Constants.PATH_ROOT %>Page/feature/2024/240403_influencer/image/pc_05_image.jpg" alt="リラックスヘルシーブラ×フルヒップショーツ"></a>
-            <a href="#" class="favoriteItem_1__image only-desktop"><img src="<%= Constants.PATH_ROOT %>Page/feature/2024/240403_influencer/image/pc_06_image.jpg" alt="リラックスヘルシーブラ×フルヒップショーツ"></a>
+            <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=UU240403influencer01" class="favoriteItem_1__image only-desktop"><img src="<%= Constants.PATH_ROOT %>Page/feature/2024/240403_influencer/image/pc_05_image.jpg" alt="リラックスヘルシーブラ×フルヒップショーツ" loading=“lazy”></a>
+            <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=UU240403influencer01" class="favoriteItem_1__image only-desktop"><img src="<%= Constants.PATH_ROOT %>Page/feature/2024/240403_influencer/image/pc_06_image.jpg" alt="リラックスヘルシーブラ×フルヒップショーツ" loading=“lazy”></a>
             <div class="swiper common_swiper only-mobile js-common_swiper_04">
               <!-- 必要に応じたwrapper -->
               <div class="swiper-wrapper">
                 <!-- スライド -->
                 <div class="swiper-slide"><!-- 活動1 -->
-                  <a href="#" class="favoriteItem_1__image"><img src="<%= Constants.PATH_ROOT %>Page/feature/2024/240403_influencer/image/pc_05_image.jpg" alt="リラックスヘルシーブラ×フルヒップショーツ"></a>
+                  <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=UU240403influencer01" class="favoriteItem_1__image"><img src="<%= Constants.PATH_ROOT %>Page/feature/2024/240403_influencer/image/pc_05_image.jpg" alt="リラックスヘルシーブラ×フルヒップショーツ" loading=“lazy”></a>
                 </div>
                 <div class="swiper-slide">
-                  <a href="#" class="favoriteItem_1__image"><img src="<%= Constants.PATH_ROOT %>Page/feature/2024/240403_influencer/image/pc_06_image.jpg" alt="リラックスヘルシーブラ×フルヒップショーツ"></a>
+                  <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=UU240403influencer01" class="favoriteItem_1__image"><img src="<%= Constants.PATH_ROOT %>Page/feature/2024/240403_influencer/image/pc_06_image.jpg" alt="リラックスヘルシーブラ×フルヒップショーツ" loading=“lazy”></a>
                 </div>
               </div>
               <!-- 必要に応じてページネーション -->
@@ -153,14 +150,14 @@ Copyright : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
             <h2 class="favoriteItem_2__title section_title js-borderLongRight">FAVORITE ITEM.<span class="section_title--number">03</span></h2>
             <div class="favoriteItem_2__body">
               <div class="favoriteItem_2__topContainer">
-                <a href="#" class="favoriteItem_2__image favoriteItem_2__image_1">
-                  <img src="<%= Constants.PATH_ROOT %>Page/feature/2024/240403_influencer/image/pc_07_image.jpg" alt="ロゴ刺繍バッグ">
+                <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=UU240403influencer02" class="favoriteItem_2__image favoriteItem_2__image_1">
+                  <img src="<%= Constants.PATH_ROOT %>Page/feature/2024/240403_influencer/image/pc_07_image.jpg" alt="ロゴ刺繍バッグ" loading=“lazy”>
                 </a>
-                <a href="#" class="favoriteItem_2__image favoriteItem_2__image_2 only-desktop">
-                  <img src="<%= Constants.PATH_ROOT %>Page/feature/2024/240403_influencer/image/pc_08_image.jpg" alt="ロゴ刺繍バッグ">
+                <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=UU240403influencer02" class="favoriteItem_2__image favoriteItem_2__image_2 only-desktop">
+                  <img src="<%= Constants.PATH_ROOT %>Page/feature/2024/240403_influencer/image/pc_08_image.jpg" alt="ロゴ刺繍バッグ" loading=“lazy”>
                 </a>
                 <div class="favoriteItem_2__topText">
-                  <h3 class="favoriteItem_2__topHead"><a href="#">ロゴ刺繍バッグ</a></h3>
+                  <h3 class="favoriteItem_2__topHead"><a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=UU240403influencer02">ロゴ刺繍バッグ</a></h3>
                   <div class="favoriteItem_2__topDescriptionBox comodity_descriptionBox">
                     <p class="favoriteItem_2__topDescription comodity_descriptionBox__description">
                       普段からメインバッグは小さめを愛用しているので、サブバックに最適！ かさばらないので畳んで旅行先にも持って行きたいですね。程よいチュール素材の透け感がお気に入りです。
@@ -171,8 +168,8 @@ Copyright : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
             </div>
           </div>
           <div class="only-mobile js-fadeInUpSp">
-            <a href="#" class="favoriteItem_2__image favoriteItem_2__image_2">
-              <img src="<%= Constants.PATH_ROOT %>Page/feature/2024/240403_influencer/image/pc_08_image.jpg" alt="ロゴ刺繍バッグ">
+            <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=UU240403influencer02" class="favoriteItem_2__image favoriteItem_2__image_2">
+              <img src="<%= Constants.PATH_ROOT %>Page/feature/2024/240403_influencer/image/pc_08_image.jpg" alt="ロゴ刺繍バッグ" loading=“lazy”>
             </a>
           </div>
           <div class="favoriteItem_2__centerContainer js-fadeInUp">
@@ -183,13 +180,13 @@ Copyright : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                   <div class="swiper-wrapper">
                     <!-- スライド -->
                     <div class="swiper-slide">
-                      <a href="#">
-                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2024/240403_influencer/image/pc_09_image.jpg" alt="Uバックオープンキャミソール（カップ付き）">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=UU240403influencer03">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2024/240403_influencer/image/pc_09_image.jpg" alt="Uバックオープンキャミソール（カップ付き）" loading=“lazy”>
                       </a>
                     </div>
                     <div class="swiper-slide">
-                      <a href="#">
-                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2024/240403_influencer/image/pc_10_image.jpg" alt="Uバックオープンキャミソール（カップ付き）">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=UU240403influencer03">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2024/240403_influencer/image/pc_10_image.jpg" alt="Uバックオープンキャミソール（カップ付き）" loading=“lazy”>
                       </a>
                     </div>
                   </div>
@@ -200,7 +197,7 @@ Copyright : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
               <div class="look_columns__cloumn look_column look_column__text">
                 <div class="look_text">
                   <p class="look_text__tag font_family_second">look <spna class="look_text__tag--number">1</spna></p>
-                  <h3 class="look_text__head"><a href="#">Uバックオープン<br><span class="look_text__head--bottom">キャミソール（カップ付き）</a></span></h3>
+                  <h3 class="look_text__head"><a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=UU240403influencer03">Uバックオープン<br><span class="look_text__head--bottom">キャミソール（カップ付き）</a></span></h3>
                   <div class="look_text__body comodity_descriptionBox">
                     <p class="comodity_descriptionBox__description">
                       背中が開いたドレスなど、イベントなどで着るときに重宝するキャミソール。背中が大きくU字に開いているので、女性らしく品のある肌みせファッションが完成します。
@@ -218,18 +215,18 @@ Copyright : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                   <div class="swiper-wrapper">
                     <!-- スライド -->
                     <div class="swiper-slide">
-                      <a href="#">
-                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2024/240403_influencer/image/pc_11_image.jpg" alt="ファッションバッククロスブラ">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=UU240403influencer04">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2024/240403_influencer/image/pc_11_image.jpg" alt="ファッションバッククロスブラ" loading=“lazy”>
                       </a>
                     </div>
                     <div class="swiper-slide">
-                      <a href="#">
-                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2024/240403_influencer/image/pc_12_image.jpg" alt="ファッションバッククロスブラ">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=UU240403influencer04">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2024/240403_influencer/image/pc_13_image.jpg" alt="ファッションバッククロスブラ" loading=“lazy”>
                       </a>
                     </div>
                     <div class="swiper-slide">
-                      <a href="#">
-                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2024/240403_influencer/image/pc_13_image.jpg" alt="ファッションバッククロスブラ">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=UU240403influencer04">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2024/240403_influencer/image/pc_12_image.jpg" alt="ファッションバッククロスブラ" loading=“lazy”>
                       </a>
                     </div>
                   </div>
@@ -240,7 +237,7 @@ Copyright : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
               <div class="look_columns__cloumn look_column look_column__text look_column__text--2">
                 <div class="look_text look_text--2">
                   <p class="look_text__tag look_text_tag--2 font_family_second">look <spna class="look_text__tag--number look_text__tag--number--2">2</spna></p>
-                  <h3 class="look_text__head look_text__head--2"><a href="#">ファッション<br class="only-desktop"><span class="look_text__head--2--bottom">バッククロスブラ</span></a></h3>
+                  <h3 class="look_text__head look_text__head--2"><a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=UU240403influencer04">ファッション<br class="only-desktop"><span class="look_text__head--2--bottom">バッククロスブラ</span></a></h3>
                   <div class="look_text__body comodity_descriptionBox comodity_descriptionBox--2">
                     <p class="comodity_descriptionBox__description comodity_descriptionBox__description--2">
                       アンダー部分にある広めのメッシュ素材と背中のクロスデザインがポイントのブラトップは、これからの季節シースルーのトップスやニットなど肌みせ服との相性も抜群。抜け感あるお洒落アイテムとしても取り入れられます。
@@ -250,7 +247,7 @@ Copyright : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
               </div>
             </div>
             <div class="favoriteItem_2__btn js-fadeInUp">
-              <a href="#" class="allBtn"><span class="allBtn__arrow">すべてのアイテムを見る</span></a>
+              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=UU240403influencerALL" class="allBtn"><span class="allBtn__arrow">すべてのアイテムを見る</span></a>
             </div>
           </div>
         </div>
