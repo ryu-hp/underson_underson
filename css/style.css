@@ -659,8 +659,6 @@ html {
 .UU240403influencer .profile__icon {
   max-width: 13.5rem;
   margin-left: -0.5rem;
-  border: 1px solid #555555;
-  border-radius: 50%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }

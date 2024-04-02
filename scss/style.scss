@@ -571,8 +571,6 @@ html {
     .profile__icon {
         max-width:rem(135);
         margin-left: rem(-5);
-        border: 1px solid $color-black;
-        border-radius: 50%;
         box-sizing: border-box;
         @include mq(md) {
             max-width: vw(281);
